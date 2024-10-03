@@ -8,7 +8,6 @@ function Header(){
                 <li>Proyectos</li>
                 <li>Sobre mí</li>
                 <li>Contacto</li>
-                <li>🐺</li>
             </ul>
         </div>
     )
