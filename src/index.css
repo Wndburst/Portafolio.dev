@@ -74,6 +74,7 @@ body{
   text-align: justify;
   max-width: 40rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .contact{
@@ -84,7 +85,6 @@ body{
   gap: 1rem;
   align-items: center;
   padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .contact a{
