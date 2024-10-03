@@ -67,10 +67,12 @@ body{
 .profile h1{
   font-size: 45px;
   width: 23rem;
+  padding: 1rem;
 }
 .profile p{
   font-size: 20PX;
   text-align: justify;
+  padding: 1rem;
   max-width: 40rem;
 }
 
@@ -81,6 +83,7 @@ body{
   font-size: 17px;
   gap: 1rem;
   align-items: center;
+  padding-inline: 1rem;
 }
 
 .contact a{
