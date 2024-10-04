@@ -37,7 +37,10 @@ function Work(){
                 </Timeline>
 
                 <div>
-                    <p>Holaa </p>
+                    <p> Desarrollé un Sistema de Reclamos y Sugerencias para una universidad
+                        utilizando el stack MERN. Implementé autenticación con JWT para diferentes 
+                        roles y diseñé un panel administrativo con gráficos interactivos para visualizar estadísticas de los reclamos.
+                        Estructuré el backend creando rutas RESTful en Express.js.</p>
                 </div>
             </div>
         </section>
