@@ -9,6 +9,13 @@ function App() {
       <Header/>
       <Profile/>
       <Work/>
+      <Work/>
+      <Work/>
+      <Work/>
+      <Work/>
+      <Work/>
+      <Work/>
+      <Work/>
 
     </div>
 

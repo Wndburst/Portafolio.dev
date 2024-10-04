@@ -3,15 +3,13 @@ import React from "react"
 function Profile(){
 
     return(
-        <section className="profile">
+        <section id="perfil" className="profile">
             <h1>Hola!, soy Thomas Riffo 🐺</h1>
-            <p>Estudiante de último semestre de Ingeniería Civil Informática en
-            la Universidad Católica del Maule. Con una sólida formación
-            académica en desarrollo de software, bases de datos y trabajo en equipo, busco iniciar mi práctica profesional
-            para aplicar y expandir mis conocimientos en un entorno
-            laboral real. Mi motivación principal es adquirir experiencia
-            práctica y contribuir activamente a proyectos desafiantes en
-            el ámbito de la ingeniería informática</p>
+            <p>Ingeniero civil informático con habilidades en desarrollo Full-Stack, 
+                utilizando MySQL, Express, React y Node. <br/> <br/>Busco realizar mi práctica profesional 
+                para adquirir experiencia práctica en un entorno real y contribuir al desarrollo 
+                de proyectos innovadores.
+                </p>
             <div className='contact'>
                 <a target="_blank" rel="noopener noreferrer" href="mailto: t.riffoaraya@gmail.com">
                 <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5"></path><path d="M3 6l9 6l9 -6"></path><path d="M15 18h6"></path><path d="M18 15l3 3l-3 3"></path></svg>
