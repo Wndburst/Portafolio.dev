@@ -24,7 +24,7 @@ function Profile(){
                 </a>    
                 <a target="_blank" rel="noopener noreferrer" href={curriculum} download>
                 <FontAwesomeIcon icon={faFilePdf} width={'1.6rem'}/>
-                Descargar CV
+                CV
                 </a>    
             </div>
         </section>
