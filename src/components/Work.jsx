@@ -32,24 +32,24 @@ function Work(){
                             display: 'flex', 
                             flexDirection: { xs: 'column', sm: 'row' }, 
                             alignItems: { xs: 'flex-start', sm: 'center' },
-                            gap: '3rem'
+                            gap: '1rem',
                         }}
                     >
                         <div>
-                            <Typography color='rgb(255, 250, 180)' variant="h6" component="span">
+                            <Typography color='rgb(255, 220, 80)' variant="h6" component="span">
                                 Desarrollo autonomo
                             </Typography>
                             <Typography>2024</Typography>
                         </div>
                         <Typography 
-                            sx={{ 
+                            sx={{
                                 textAlign: 'justify', 
-                                marginTop: { xs: '8px', sm: 0 } // Se agrega un margen en pantallas pequeñas
+                                marginTop: { xs: '8px', sm: 0 }, // Se agrega un margen en pantallas pequeñas
                             }}
                         >
                             Desarrollé un sistema de incidencias enfocado en una universidad utilizando el stack MERN,
                             implementando autenticación con JWT para diferentes roles ademas del diseño de un panel administrativo con gráficos 
-                            interactivos para visualizar estadísticas.
+                            interactivos para visualizar estadísticas y ayudar a la toma de desiciones.
                         </Typography>
                     </TimelineContent>
 

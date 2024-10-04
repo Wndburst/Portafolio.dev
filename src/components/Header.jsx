@@ -1,16 +1,64 @@
+import { useEffect, useState } from 'react';
 
-function Header(){
-    return(
-        <div className="navbar">
-            <ul>
-                <li><a href="#experiencia">Experiecia</a></li>
-                <li><a href="">Proyectos</a></li>
-                <li><a href="">Sobre mí</a></li>
-                <li><a href="#perfil">Contacto</a></li>
+function Header() {
+  const [activeSection, setActiveSection] = useState('');
 
-            </ul>
-        </div>
-    )
+  // Función para actualizar la sección activa
+  const handleScroll = () => {
+    const sections = document.querySelectorAll('section'); // Suponiendo que tus secciones tienen la etiqueta <section>
+    
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top >= 0 && rect.top <= window.innerHeight / 2) {
+        setActiveSection(section.id);
+      }
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <div className="navbar">
+      <ul>
+        <li>
+          <a 
+            href="#perfil" 
+            className={activeSection === 'perfil' ? 'active' : ''}
+          >
+            Contacto
+          </a>
+        </li>
+        <li>
+          <a 
+            href="#experiencia" 
+            className={activeSection === 'experiencia' ? 'active' : ''}
+          >
+            Experiencia
+          </a>
+        </li>
+        <li>
+          <a 
+            href="#proyectos" 
+            className={activeSection === 'proyectos' ? 'active' : ''}
+          >
+            Proyectos
+          </a>
+        </li>
+        <li>
+          <a 
+            href="#sobre-mi" 
+            className={activeSection === 'sobre-mi' ? 'active' : ''}
+          >
+            Sobre mí
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  );
 }
 
-export default Header
+export default Header;
