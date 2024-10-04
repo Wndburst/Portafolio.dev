@@ -20,7 +20,7 @@ html {
   scroll-behavior: smooth;
 }
 .markyellow{
-  color: rgb(255, 220, 80);
+  color: rgb(249, 255, 197);
 }
 
 .portfolio{
@@ -62,7 +62,7 @@ html {
   padding: 10px;
 }
 .navbar ul li a.active {
-  color: yellow; /* Cambia el color del enlace activo */
+  color: rgb(249, 255, 197); /* Cambia el color del enlace activo */
   font-weight: bold; /* Puedes añadir más estilos como hacerlo en negrita */
 }
 
@@ -101,6 +101,7 @@ html {
   gap: 1rem;
   align-items: center;
   padding-left: 1rem;
+  flex-wrap: wrap;
 }
 
 .contact a{

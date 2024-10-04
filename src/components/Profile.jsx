@@ -1,5 +1,8 @@
 import React from "react"
 import curriculum from '../assets/thomasRiffoCV.pdf'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+
 function Profile(){
 
     return(
@@ -20,6 +23,7 @@ function Profile(){
                 Linkedin
                 </a>    
                 <a target="_blank" rel="noopener noreferrer" href={curriculum} download>
+                <FontAwesomeIcon icon={faFilePdf} width={'1.6rem'}/>
                 Descargar CV
                 </a>    
             </div>

@@ -36,7 +36,7 @@ function Work(){
                         }}
                     >
                         <div>
-                            <Typography color='rgb(255, 220, 80)' variant="h6" component="span">
+                            <Typography color='rgb(249, 255, 197)' variant="h6" component="span">
                                 Desarrollo autonomo
                             </Typography>
                             <Typography>2024</Typography>
