@@ -36,7 +36,7 @@ function Work(){
                         }}
                     >
                         <div>
-                            <Typography color='rgb(249, 255, 197)' variant="h6" component="span">
+                            <Typography fontWeight={'bold'} color='rgb(152, 123, 233)' variant="h6" component="span">
                                 Desarrollo autonomo
                             </Typography>
                             <Typography>2024</Typography>
@@ -47,9 +47,10 @@ function Work(){
                                 marginTop: { xs: '8px', sm: 0 }, // Se agrega un margen en pantallas pequeñas
                             }}
                         >
-                            Desarrollé un sistema de incidencias enfocado en una universidad utilizando el stack MERN,
-                            implementando autenticación con JWT para diferentes roles ademas del diseño de un panel administrativo con gráficos 
-                            interactivos para visualizar estadísticas y ayudar a la toma de desiciones.
+                            He desarrollado distintas aplicaciones web y móviles, 
+                            siempre con un enfoque en la resolución de problemas.
+                            Me apasiona el aprendizaje continuo y actualmente estoy aprendiendo AWS para integrar soluciones en la nube y mejorar la escalabilidad de mis proyectos.
+
                         </Typography>
                     </TimelineContent>
 
