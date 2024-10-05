@@ -49,7 +49,7 @@ function Header() {
         </li>
         <li>
           <a 
-            href="#sobre-mi" 
+            href="#about" 
             className={activeSection === 'sobre-mi' ? 'active' : ''}
           >
             Sobre mí
