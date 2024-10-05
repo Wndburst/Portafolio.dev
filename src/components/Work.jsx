@@ -49,8 +49,8 @@ function Work(){
                             }}
                         >
                             He desarrollado distintas aplicaciones webs y móviles, 
-                            siempre con un enfoque en la resolución de problemas.
-                            Actualmente, estoy profundizando en AWS para implementar soluciones en 
+                            siempre con un <b className="markyellow">enfoque en la resolución de problemas</b>.
+                            <br/>Actualmente, estoy <b className="markyellow">aprendiendo AWS</b> para implementar soluciones en 
                             la nube que optimicen la escalabilidad y el rendimiento de mis proyectos.
 
 
