@@ -1,5 +1,6 @@
 import React from "react"
 import curriculum from '../assets/thomasRiffoCV.pdf'
+import foto from '../assets/thomas.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,7 +8,10 @@ function Profile(){
 
     return(
         <section id="perfil" className="profile">
-            <h1>¡Hola!, soy Thomas Riffo 🐺</h1>
+            <div className="profile-foto">
+                <img className="fotoPerfil" src={foto}></img>
+                <h1>Hola, soy Thomas Riffo</h1>
+            </div>
             <p>Ingeniero civil informático con habilidades en <b className="markyellow"> desarrollo Full-Stack</b>, 
                 utilizando <b className="markyellow"> MySQL, Express, React y Node.</b><br/> <br/>Busco realizar mi <b className="markyellow">práctica profesional </b>
                 para adquirir experiencia práctica en un entorno real y contribuir al desarrollo 

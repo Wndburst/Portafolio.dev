@@ -10,9 +10,8 @@ function App() {
       <Profile/>
       <Work/>
       <Work/>
-      <Work/>
-      <Work/>
-      <Work/>
+
+
 
     </div>
 

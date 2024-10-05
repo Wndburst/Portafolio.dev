@@ -4,7 +4,7 @@ body{
   /*background-image: radial-gradient(rgb(31, 81, 120) 50%,#1b1e1f);
   background-image: linear-gradient(to left top, rgb(40, 58, 81),rgb(58, 7, 7));
   */
-  background: linear-gradient(180deg, rgb(127, 190, 181) 0%, rgb(146, 154, 177) 50%, rgb(145, 178, 157) 100%);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 20%, rgb(13, 20, 52) 50%, rgb(67, 29, 113) 100%);
   font-family: "Onest", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -12,15 +12,14 @@ body{
   margin: 0; /* Asegúrate de que no haya márgenes predeterminados */
   padding: 0;
   min-height: 100vh;
-  
-
 }
+
 
 html {
   scroll-behavior: smooth;
 }
 .markyellow{
-  color: rgb(249, 255, 197);
+  color: rgb(152, 123, 233);
 }
 
 .portfolio{
@@ -32,16 +31,16 @@ html {
 
 /*HEADER*/
 .navbar{
-  margin-top: 5px;
+  margin-top: 15px;
   color: white;
   display: block;
   height: 2.5rem;  
   border-radius: 10px;
   width: max-content;
-  box-shadow: 1px 2px 10px rgb(54, 54, 54);
+  box-shadow: 1px 2px 10px rgb(0, 0, 0);
   position: fixed;
   top: 0;
-  background-color: rgb(79, 88, 109);
+  background-color: rgb(0, 0, 0);
   z-index: 1000;
 }
 
@@ -51,6 +50,8 @@ html {
   padding: 0;
   display: flex;
   justify-content: center;
+  margin-inline: 1rem;
+  gap: 1rem;
 }
 
 .navbar a{
@@ -62,7 +63,7 @@ html {
   padding: 10px;
 }
 .navbar ul li a.active {
-  color: rgb(249, 255, 197); /* Cambia el color del enlace activo */
+  color: rgb(152, 123, 233); /* Cambia el color del enlace activo */
   font-weight: bold; /* Puedes añadir más estilos como hacerlo en negrita */
 }
 
@@ -72,7 +73,7 @@ html {
 /*Profiele*/
 
 .profile{
-  margin-top: 5rem;
+  margin-top: 8rem;
   color: white;
   font-size: 3rem;
   max-width: 56rem;
@@ -80,6 +81,18 @@ html {
   margin-right: auto;
   
 }
+.fotoPerfil{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.profile-foto{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 .profile h1{
   font-size: 45px;
   width: 23rem;
