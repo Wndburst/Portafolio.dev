@@ -1,4 +1,3 @@
-import Aboutme from "./components/Aboutme.jsx"
 import Header from "./components/Header.jsx"
 import Profile from "./components/Profile.jsx"
 import Work from "./components/Work.jsx"
@@ -12,7 +11,6 @@ function App() {
       <Work/>
       <Work/>
       <Work/>
-      <Aboutme/>
     </div>
 
   )
