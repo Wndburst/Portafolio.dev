@@ -11,6 +11,7 @@ function App() {
       <Profile/>
       <Work/>
       <Work/>
+      <Work/>
       <Aboutme/>
     </div>
 
