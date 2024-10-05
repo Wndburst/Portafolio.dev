@@ -15,7 +15,7 @@ function Profile(){
             <p>Ingeniero civil informático con habilidades en <b className="markyellow"> desarrollo Full-Stack</b>, 
                 utilizando <b className="markyellow"> MySQL, Express, React y Node.</b><br/> <br/>Busco realizar mi <b className="markyellow">práctica profesional </b>
                 para adquirir experiencia práctica en un entorno real y contribuir al desarrollo 
-                de proyectos innovadores.
+                de proyectos desafiantes.
                 </p>
             <div className='contact'>
                 <a target="_blank" rel="noopener noreferrer" href="mailto: t.riffoaraya@gmail.com">

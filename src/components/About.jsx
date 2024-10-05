@@ -6,9 +6,10 @@ function About(){
         <section id="about" className="aboutme">
             <h2>Sobre Mí</h2>
         <p>
-            Me llamo Thomas Andreus Riffo Araya, tengo 23 años y 
-            actualmente me encuentro en mi ultimo semestre de mi carrera.
-            Desde muy pequeño siempre me gusto la carrera 
+        Estudiante en mi último año de Ingeniería Civil Informática.
+         Me gusta estar en constante aprendizaje y siempre busco oportunidades para expandir mis conocimientos. 
+         Disfruto del trabajo en equipo y me motiva encontrar soluciones efectivas, ya sea en proyectos personales
+        o en colaboración con otras personas.
 
         </p>
         </section>

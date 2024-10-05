@@ -37,22 +37,27 @@ function Work(){
                     >
                         <div>
                             <Typography fontWeight={'bold'} color='rgb(152, 123, 233)' variant="h6" component="span">
-                                Desarrollo autonomo
+                                Desarrollo autónomo
                             </Typography>
-                            <Typography>2024</Typography>
+                            <Typography color='gray' >Actualidad</Typography>
                         </div>
+                        
                         <Typography 
                             sx={{
                                 textAlign: 'justify', 
                                 marginTop: { xs: '8px', sm: 0 }, // Se agrega un margen en pantallas pequeñas
                             }}
                         >
-                            He desarrollado distintas aplicaciones web y móviles, 
+                            He desarrollado distintas aplicaciones webs y móviles, 
                             siempre con un enfoque en la resolución de problemas.
-                            Me apasiona el aprendizaje continuo y actualmente estoy aprendiendo AWS para integrar soluciones en la nube y mejorar la escalabilidad de mis proyectos.
+                            Actualmente, estoy profundizando en AWS para implementar soluciones en 
+                            la nube que optimicen la escalabilidad y el rendimiento de mis proyectos.
+
+
 
                         </Typography>
                     </TimelineContent>
+                    
 
                 </TimelineItem>
             </Timeline>
