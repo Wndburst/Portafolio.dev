@@ -50,7 +50,6 @@ html {
   padding: 0;
   display: flex;
   justify-content: center;
-  margin-inline: 1rem;
   gap: 1rem;
 }
 
