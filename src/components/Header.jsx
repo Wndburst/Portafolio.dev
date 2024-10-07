@@ -22,7 +22,7 @@ function Header() {
     if (section) {
       window.scrollTo({
         top: section.offsetTop - 200, // Ajusta este valor para tener más o menos espacio arriba
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
