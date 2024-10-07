@@ -25,7 +25,7 @@ function Header() {
       <ul>
         <li>
           <a 
-            href="#perfil" 
+            href="/#perfil" 
             className={activeSection === 'perfil' ? 'active' : ''}
           >
             Contacto
@@ -33,7 +33,7 @@ function Header() {
         </li>
         <li>
           <a 
-            href="#experiencia" 
+            href="/#experiencia" 
             className={activeSection === 'experiencia' ? 'active' : ''}
           >
             Experiencia
@@ -41,7 +41,7 @@ function Header() {
         </li>
         <li>
           <a 
-            href="#proyectos" 
+            href="/#proyectos" 
             className={activeSection === 'proyectos' ? 'active' : ''}
           >
             Proyectos
@@ -49,8 +49,8 @@ function Header() {
         </li>
         <li>
           <a 
-            href="#about" 
-            className={activeSection === 'sobre-mi' ? 'active' : ''}
+            href="/#about" 
+            className={activeSection === 'about' ? 'active' : ''}
           >
             Sobre mí
           </a>

@@ -6,12 +6,10 @@ function About(){
         <section id="about" className="aboutme">
             <h2>Sobre Mí</h2>
         <p>
-            Estudiante en mi último año de Ingeniería Civil Informática. 
-        Me apasiona el aprendizaje continuo y <b className="markyellow">busco constantemente oportunidades 
-        para expandir mis conocimientos.</b> <br/><br/> 
-        Disfruto <b className="markyellow">trabajar en equipo y me motiva 
-        encontrar soluciones efectivas</b>, ya sea, en proyectos personales o profesionales.
-
+        Estudiante en el último año de Ingeniería Civil Informática, 
+        con un gran interés en el área de <b className="markyellow">desarrollo de software.</b> 
+        <br/>Actualmente, estoy enfocado en <b className="markyellow">mejorar continuamente</b> mis habilidades
+        como desarrollador y disfruto estar rodeado de buenas personas.
         </p>
         </section>
     )
