@@ -15,6 +15,18 @@ function Header() {
     });
   };
 
+  const handleClick = (e, sectionId) => {
+    e.preventDefault();
+    const section = document.querySelector(sectionId);
+
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop - 200, // Ajusta este valor para tener más o menos espacio arriba
+        behavior: 'smooth'
+      });
+    }
+  };
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -27,6 +39,7 @@ function Header() {
           <a 
             href="/#perfil" 
             className={activeSection === 'perfil' ? 'active' : ''}
+            onClick={(e) => handleClick(e, '#perfil')}
           >
             Contacto
           </a>
@@ -35,6 +48,7 @@ function Header() {
           <a 
             href="/#experiencia" 
             className={activeSection === 'experiencia' ? 'active' : ''}
+            onClick={(e) => handleClick(e, '#experiencia')}
           >
             Experiencia
           </a>
@@ -43,6 +57,7 @@ function Header() {
           <a 
             href="/#proyectos" 
             className={activeSection === 'proyectos' ? 'active' : ''}
+            onClick={(e) => handleClick(e, '#proyectos')}
           >
             Proyectos
           </a>
@@ -51,6 +66,7 @@ function Header() {
           <a 
             href="/#about" 
             className={activeSection === 'about' ? 'active' : ''}
+            onClick={(e) => handleClick(e, '#about')}
           >
             Sobre mí
           </a>

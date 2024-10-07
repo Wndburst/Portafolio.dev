@@ -49,7 +49,7 @@ function Work(){
                             }}
                         >
                             He desarrollado distintas aplicaciones webs y móviles, 
-                            siempre con un <b className="markyellow">enfoque en la resolución de problemas</b>.
+                            siempre con un <b className="markyellow">enfoque en la resolución de problemas</b> y aprendizaje autónomo.
                             <br/>Actualmente, estoy <b className="markyellow">aprendiendo AWS</b> para implementar soluciones en 
                             la nube que optimicen la escalabilidad y el rendimiento de mis proyectos.
 

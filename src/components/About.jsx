@@ -8,8 +8,8 @@ function About(){
         <p>
         Estudiante en el último año de Ingeniería Civil Informática, 
         con un gran interés en el área de <b className="markyellow">desarrollo de software.</b> 
-        <br/>Actualmente, estoy enfocado en <b className="markyellow">mejorar continuamente</b> mis habilidades
-        como desarrollador y disfruto estar rodeado de buenas personas.
+        <br/>Actualmente, estoy <b className="markyellow"> enfocado en mejorar</b> continuamente mis habilidades
+        como desarrollador <b className="markyellow">aprendiendo nuevas tecnologías, metodologías ágiles y mejores prácticas de desarrollo.</b>
         </p>
         </section>
     )
