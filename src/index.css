@@ -177,6 +177,7 @@ html {
   justify-content: space-between;
   align-items: start;
   flex-wrap: wrap;
+  margin: 1rem;
  
   box-shadow: 1px 1px 9px 5px rgba(0, 0, 0, 0.2);
 }
@@ -263,7 +264,7 @@ html {
 } 
 
 .aboutme{
-  margin-top: 3rem;
+  margin-top: 2rem;
   color: white;
   max-width: 42rem;
   width: 100%;

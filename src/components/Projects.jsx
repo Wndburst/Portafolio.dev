@@ -13,7 +13,7 @@ function Projects() {
             <div className="project-container">
                 <div className="image-container">
                     <img src={log} alt="Thomas project" className="project-image project-image-main" />
-                    <img src={responsive} alt="Thomas project hover" className="project-image project-image-hover" />
+                    <img src={formulario} alt="Thomas project hover" className="project-image project-image-hover" />
                 </div>
                 <p>
                 Desarrollé un sistema de incidencias enfocado en mi universidad, 
