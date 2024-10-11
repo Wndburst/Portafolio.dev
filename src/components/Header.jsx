@@ -21,7 +21,7 @@ function Header() {
 
     if (section) {
       window.scrollTo({
-        top: section.offsetTop - 50, // Ajusta este valor para tener más o menos espacio arriba
+        top: section.offsetTop - 100, // Ajusta este valor para tener más o menos espacio arriba
         behavior: 'smooth',
       });
     }

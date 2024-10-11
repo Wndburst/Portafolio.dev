@@ -1,5 +1,5 @@
 import React from "react"
-import curriculum from '../assets/thomasRiffoCV.pdf'
+import curriculum from '../assets/ThomasRiffoCV.pdf'
 import foto from '../assets/thomas.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
