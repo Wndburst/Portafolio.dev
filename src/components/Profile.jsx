@@ -13,7 +13,8 @@ function Profile(){
                 <h1>Hola, soy Thomas Riffo</h1>
             </div>
             <p>Ingeniero Civil Informático con habilidades en <b className="markyellow"> desarrollo Full-Stack</b>, 
-                utilizando <b className="markyellow"> MySQL, Express, React y Node.</b><br/> <br/>Busco realizar mi <b className="markyellow">práctica profesional </b>
+                utilizando <b className="markyellow"> Java, Spring Boot, Node, Express,
+                React y SQL.</b><br/> <br/>Busco realizar mi <b className="markyellow">práctica profesional </b>
                 para adquirir experiencia práctica en un entorno real y contribuir al desarrollo 
                 de proyectos desafiantes.
                 </p>
